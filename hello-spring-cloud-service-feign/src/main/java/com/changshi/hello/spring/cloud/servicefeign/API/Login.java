@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface Login {
     @RequestMapping(value = "/home/login", method = RequestMethod.GET)
     //@RequestParam 注解必须写
-     boolean login_home(@RequestParam String name,@RequestParam String password);
+     String login_home(@RequestParam String name,@RequestParam String password);
 }

@@ -9,11 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
     @Autowired
     private Login login;
-    @Autowired
-    SchedualServiceHi schedualServiceHi;
     @RequestMapping(value = "/home/login")
-    public boolean login(String name,String password){
-        schedualServiceHi.sayHiFromClientOne(name);
+    public String login(String name,String password){
         return login.login_home(name,password);
     }
 

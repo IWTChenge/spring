@@ -1,7 +1,6 @@
-package com.changshi.hello.spring.cloud.client.Controller;
+package com.changshi.hello.spring.cloud.client2.Controller;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
